@@ -1,0 +1,13 @@
+#palindrome of number
+x=eval(input("Enter a integer"))
+y=str(x)
+spc=""
+for i in range(len(y)):
+    spc=y[i]+spc
+def palindrome(spc):
+    
+    if str(spc)==str(x):
+        print(True)
+    else:
+        printFalse)
+palindrome(spc)      
