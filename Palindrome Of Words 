@@ -1,0 +1,13 @@
+word=input("Enter the word:\n")
+paln=""
+for i in range(len(word)):
+    paln=word[i]+paln
+    
+print(paln)
+
+if (paln==word):
+    print("True")
+    
+else:
+    print("False")
+    
